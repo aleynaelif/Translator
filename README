@@ -4,7 +4,7 @@ as well as the name of the dictionary file to be used for translating purposes. 
 If the meaning of the word is found, then the program writes the output file the meaning. But if dictionary file does not contains the meaning of the word, then
 it writes the word itself in the output file. It also keeps a counter of the numbers for the succesfull translations and the unsuccesfull translations. When the program
 ended it prints these counters in the screen. This project includes the libfdr library. Especially uses fields structure while readig the input file. Adds the results of
-the translations to the double linked list by using dllist.h in the libfdr library. 
+the translations to the double linked list by using dllist.h in the libfdr library. It also contains the makefile in order to run these files together. 
 
 Example input:
 $> bin/ceviri tr txt/input.txt txt/sozluk.txt 
