@@ -1,0 +1,25 @@
+arkadas durust bir insan. kiskanc degil.
+my friend is honest person, not jealous.
+regret				pismanolmak
+promotion				terfi
+889			inspector				müfettis
+890			insurance				sigorta
+891			interestrate				faizorani
+892			invoice				fatura
+893			judge				yargilamak
+894			justice				adalet
+895			kidnapping				adamkacirma
+896			knowledge				bilgi
+897			laborforce				isgücü
+898			landlord				evsahibi
+899			licenceplate				plaka
+900			lifevest				canyelegi
+901			loan				kredi
+902			loanagreement				kredisözlesmesi
+903			magnificent				mükemmel
+916			opportunity				firsat
+917			participate				katilmak
+918			patience				sabir
+919			percentage				yüzde
+920			persuade				iknaetmek
+921			pollution				kirlilik
