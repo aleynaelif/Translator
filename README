@@ -1,0 +1,40 @@
+This is a project that translates English to Turkish and Turkish to English. Program takes input from the user and creates an output file.
+As a input, the user is expected to give the language to be translated and the name of the file which contains the words to be translated,
+as well as the name of the dictionary file to be used for translating purposes. Program takes the input file and searches the words one by one in the dictionary file.
+If the meaning of the word is found, then the program writes the output file the meaning. But if dictionary file does not contains the meaning of the word, then
+it writes the word itself in the output file. It also keeps a counter of the numbers for the succesfull translations and the unsuccesfull translations. When the program
+ended it prints these counters in the screen. This project includes the libfdr library. Especially uses fields structure while readig the input file. Adds the results of
+the translations to the double linked list by using dllist.h in the libfdr library. 
+
+Example input:
+$> bin/ceviri tr txt/input.txt txt/sozluk.txt 
+takes the words inside of the input.txt file and translates the words in English to Turkish using the sozluk.txt file. 
+
+$> bin/ceviri eng txt/input.txt txt/sozluk.txt 
+takes the words inside of the input.txt file and translates the words in Turkish to English using the sozluk.txt file. 
+
+Example 1:
+
+Contents of input.txt file:
+arkadaş dürüst bir insan. kıskanç değil. 
+
+Contents of output.txt file:
+friend honest one insan. jealous değil.
+
+Output:
+Karşılaştırılan Kelime Sayısı : 6
+Çevirisi Başarılı Kelime Sayısı : 4
+Çevirisi Yapılamamış Kelime Sayısı : 2
+
+Example 2:
+
+Contents of input.txt file:
+my friend is honest person, not jealous. 
+
+Contents of output.txt file:
+my arkadaş is dürüst insan, not kıskanç.
+
+Output:
+Karşılaştırılan Kelime Sayısı : 7
+Çevirisi Başarılı Kelime Sayısı : 4
+Çevirisi Yapılamamış Kelime Sayısı : 3
